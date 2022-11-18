@@ -11,7 +11,7 @@ if [ "$actualOut1" = "$ExpectedOut1" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        echo "Please Enter a value"
 fi
 
 
@@ -26,6 +26,6 @@ if [[ "$actualOut3" == *"$ExpectedOut3"* && *"$ExpectedOut33"* ]]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        echo "Please Enter in the format Amount followed by Currency"
 fi
 
