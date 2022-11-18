@@ -26,6 +26,6 @@ if [[ "$actualOut3" == *"$ExpectedOut3"* && *"$ExpectedOut33"* ]]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        exit 1
+        echo 1
 fi
 
