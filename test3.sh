@@ -13,7 +13,7 @@ if [[ "$actualOut1" == *"$ExpectedOut1"* && *"$ExpectedOut11"* ]]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        exit 1
+        echo 1
 fi
 echo "----------------------------------------------------------------"
 input2="1 pounds"
@@ -26,7 +26,7 @@ if [[ "$actualOut2" == *"$ExpectedOut2"* && *"$ExpectedOut22"* ]]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        exit 1
+        echo 1
 fi
 
 echo "--------------------------------------------------------------"
@@ -41,7 +41,7 @@ if [[ "$actualOut3" == *"$ExpectedOut3"* && *"$ExpectedOut33"* ]]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        exit 1
+        echo 1
 fi
 
 echo "------------------------------------------------------------------"
