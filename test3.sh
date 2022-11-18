@@ -2,6 +2,7 @@
 
 echo "Start of test 3, check correct currency conversion "
 echo "--------------------------------------------------------------"
+echo "checking with input '1 dollars'"
 
 input1="1 dollars"
 
@@ -16,6 +17,8 @@ else
         exit 1
 fi
 echo "----------------------------------------------------------------"
+
+echo "checking with input '1 pounds'"
 input2="1 pounds"
 
 ExpectedOut2="1.36 Dollars"
@@ -30,6 +33,7 @@ else
 fi
 
 echo "--------------------------------------------------------------"
+echo "checking with input '1 euros'"
 
 input3="1 euros"
 
