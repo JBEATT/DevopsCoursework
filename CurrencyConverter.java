@@ -5,7 +5,7 @@ public class CurrencyConverter {
         public static void main(String[] args) {
 
                 double amount, dollar, pound, euro;
-
+                dollar=1.0
                 DecimalFormat f = new DecimalFormat("##.##");
 
                 amount = Integer.parseInt(args[0]);
