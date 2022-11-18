@@ -22,7 +22,7 @@ if [ "$actualOut1" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 euros'"
@@ -34,7 +34,7 @@ if [ $"actualOut2" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 pounds'"
@@ -46,7 +46,7 @@ if [ $"actualOut3" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 DOLLARS'"
@@ -58,7 +58,7 @@ if [ "$actualOut4" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 EUROS'"
@@ -70,7 +70,7 @@ if [ $"actualOut5" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 POUNDS'"
@@ -81,7 +81,7 @@ if [ $"actualOut6" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 Dollars'"
@@ -93,7 +93,7 @@ if [ $"actualOut7" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 Euros'"
@@ -104,7 +104,7 @@ if [ $"actualOut8" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
 echo "Testing the input '1 Pounds'"
@@ -116,6 +116,6 @@ if [ $"actualOut9" != "$errorOutput" ]; then
         echo "The test has passed"
 else
         echo "The test has failed"
-        echo 1
+        exit 1
 fi
 
