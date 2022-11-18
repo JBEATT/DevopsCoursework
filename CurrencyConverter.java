@@ -6,8 +6,8 @@ public class CurrencyConverter {
 
                 double amount;
                 double dollar;
-		double pound;
-		double euro;
+                double pound;
+                double euro;
 
                 DecimalFormat f = new DecimalFormat("##.##");
 
