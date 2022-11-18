@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Start of test, No input value "
+echo "Start of test, no input value "
 
 input1=""
 
