@@ -4,15 +4,11 @@ public class CurrencyConverter {
 
         public static void main(String[] args) {
 
-<<<<<<< HEAD
                 double amount;
                 double dollar;
 		double pound;
 		double euro;
-=======
-                double amount, dollar, pound, euro;
-                dollar=1.0;
->>>>>>> c9363536cf42de87681cead9cebd8d0cf4979dd5
+
                 DecimalFormat f = new DecimalFormat("##.##");
 
                 amount = Integer.parseInt(args[0]);
